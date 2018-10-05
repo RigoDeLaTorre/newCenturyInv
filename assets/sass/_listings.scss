@@ -1,0 +1,33 @@
+#listings {
+  position: relative;
+  background: white;
+  color: black;
+  margin-top:5rem;
+
+.group-listings{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content: space-around;
+  .listing-group{
+    max-height:250px;
+    max-width:250px;
+    img{
+      max-width:250px;
+    }
+    .property-address{
+      margin-bottom:1rem;
+      font-weight:500;
+    }
+    .home-details{
+      .group-details{
+        margin-bottom:1rem;
+        line-height: 1.4;
+
+      }
+    }
+  }
+}
+
+
+
+}

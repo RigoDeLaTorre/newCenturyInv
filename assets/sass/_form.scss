@@ -1,0 +1,70 @@
+.home-valuation{
+  width: 80%;
+margin: 0 auto;
+@media only screen and (max-width: 400px) {
+width:100%;
+}
+  h3{
+    font-size:2rem;
+    color: #afd09a;
+    font-weight:700;
+      margin:3rem 0;
+      letter-spacing: 5px;
+      @media only screen and (max-width: 400px) {
+      font-size:1.5rem;
+
+      }
+  }
+  .inputName{
+    position:relative;
+    margin-bottom:.5rem;
+    input,textarea{
+      padding:15px;
+      width:100%;
+        padding-left:100px;
+      border-width:0 0 1px 0;
+      border-style:5px solid;
+      &::placeholder{
+        color:#878794;
+        font-weight:500;
+        font-size:.9rem;
+        letter-spacing: 2px;
+        @media only screen and (max-width: 400px) {
+        font-size:.7rem;
+        }
+
+
+      }
+    }
+    span{
+    color: #c0d4b4;
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  font-size: .9rem;
+  font-weight: 500;
+      letter-spacing: 1.2px;
+    }
+  }
+  .submit-button{
+    background: #8ed263;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    float:right;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    border-style:none;
+    img{
+      width: 15px;
+      height: 15px;
+      margin-left: 5px;
+
+    }
+    &:hover{
+      background:#81d438;
+      font-weight:500;
+
+    }
+  }
+}

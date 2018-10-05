@@ -1,0 +1,120 @@
+$gray:#bfb1b1;
+
+#BuyingHome {
+  // background:#c0d2b4;
+  background: linear-gradient(135deg, rgba(10,30,55,0.9) 0%,rgba(10,30,55,.9) 100%), url('../img/adventure.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+    @media only screen and (max-width: 600px) {
+      text-align: center;
+    }
+
+  h1{
+    font-size:5rem;
+  margin:5rem 0;
+    color:white;
+    letter-spacing: 5px;
+      text-align: center;
+      font-weight:100;
+        text-shadow: 2px 2px #232121;
+        @media only screen and (max-width: 768px) {
+        font-size:2rem;
+
+        }
+  }
+  h5{
+    color:#d0c6c6;
+      max-width:1400px;
+      margin:0 auto;
+      font-size:.9rem;
+      @media only screen and (max-width: 768px) {
+      text-align: center;
+      }
+
+      span{
+        color: #c6defd;
+font-weight: 700;
+font-size:1.1rem;
+  border-bottom: 1px solid;
+      }
+
+  }
+.buyHomeContainer{
+    padding:7rem 0;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width:1400px;
+  margin:0 auto;
+  @media only screen and (max-width: 600px) {
+    flex-direction:column;
+    padding:7rem 2rem;
+  }
+
+  .box{
+    flex:1;
+    @media only screen and (max-width: 600px) {
+    text-align: center;
+    margin-bottom:100px;
+    }
+    h2{
+      margin-top:1rem;
+      color:#ffffff;
+
+    }
+    p{
+      margin-top:2rem;
+      line-height: 1.4;
+      max-width:80%;
+      font-size: 1.2rem;
+font-weight: 300;
+color: $gray;
+@media only screen and (max-width: 600px) {
+  margin:0 auto;
+}
+
+    }
+    .box-image{
+      @media only screen and (max-width: 600px) {
+        margin:0 auto;
+      }
+    }
+    .box-image1{
+      background:url('../img/girl.svg');
+      height:100px;
+      width:100px;
+      background-size:cover;
+      background-repeat:no-repeat;
+
+
+    }
+    .box-image2{
+      background:url('../img/banking.svg');
+      height:100px;
+      width:100px;
+      background-size:cover;
+      background-repeat:no-repeat;
+
+    }
+    .box-image3{
+      background:url('../img/home.svg');
+      height:100px;
+      width:100px;
+      background-size:cover;
+      background-repeat:no-repeat;
+
+    }
+  }
+  .box1{
+
+  }
+}
+
+
+
+
+}

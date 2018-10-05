@@ -1,0 +1,132 @@
+#nav-section{
+color:white;
+background:#80b55fa1;
+@media (max-width: 768px) {
+  padding-bottom:25px;
+}
+
+
+  .nav-phones{
+    background:#afd09a;
+    display:none;
+  max-width:100%;
+    @media (max-width: 768px) {
+    display:block;
+    position:fixed;
+    width:100%;
+    z-index: 1;
+
+    }
+    .nav-phone-container{
+      display:flex;
+      flex-flow:row nowrap;
+      justify-content: space-between;
+      padding:20px;
+      color:white;
+
+      .nav-small-icon{
+        background:url('../img/menu.svg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:30px;
+        width:30px;
+      }
+      .phone-icon{
+
+        background:url('../img/phone-receiver.svg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:30px;
+        width:30px;
+      }
+      .email-icon{
+        background:url('../img/close-envelope.svg');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:30px;
+        width:30px;
+
+      }
+    }
+  }
+  .menu-links{
+  display:none;
+  position:absolute;
+  padding:25px;
+  background:#1d1f1b;
+  z-index: 1;
+  width:100%;
+  text-align: center;
+
+  &.show-menu-links{
+    display:block;
+
+  }
+
+
+  li{
+    width:100%;
+    display:block;
+    list-style: none;
+    padding:10px;
+    border:#0e0d0d;
+    border-bottom:#afd09a;
+    border-style:solid;
+
+    a{
+      text-decoration:none;
+      color:white;
+      &:hover{
+        color:red;
+      }
+
+
+    }
+  }
+
+}
+.nav{
+  max-width:1400px;
+  margin:0 auto;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding:25px 0;
+  @media only screen and (max-width: 768px) {
+  display:none;
+  }
+  ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    li{
+      padding:25px;
+      letter-spacing:2px;
+      color:#5a734a;
+      font-size:.8rem;
+      a{
+        text-decoration:none;
+        color:#5a734a;
+        &:hover{
+          color:white;
+        }
+      }
+  }
+    .logo{
+      border-right:2px solid;
+      border-right-color:#224065;
+      color: #091c35;
+      font-weight: 500;
+      padding-left:0 !important;
+    }
+    .phone-nav{
+      color:#091c35;
+    }
+  }
+}
+
+
+}
